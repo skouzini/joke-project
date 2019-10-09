@@ -18,12 +18,20 @@
 
     <div class="search">
       <form class="">
-        <input type="radio" name="jokeType" value="any" checked>any</br>
-        <input type="radio" name="jokeType" value="programming">programming</br>
-        <input type="radio" name="jokeType" value="knock-knock">knock-knock</br>
+        <h4>Joke type:</h4>
+        <div class="">
+          <input type="radio" name="jokeType" value="any" checked>any</br>
+        </div>
+        <div class="">
+          <input type="radio" name="jokeType" value="programming">programming</br>
+        </div>
+        <div class="">
+          <input type="radio" name="jokeType" value="knock-knock">knock-knock</br>
+        </div>
+        <div class="">
+            <button id="getJoke" onclick="getJoke()">Get Joke</button>
+        </div>
       </form>
-      <button id="getJoke" onclick="getJoke()">Get Joke</button>
-
     </div>
 
     <div class="setup">
@@ -35,7 +43,7 @@
     </div>
 
     <div class="footer">
-      <a href="#">GitHub Repo</a>
+      <a href="https://github.com/skouzini/joke-project">GitHub Repo</a>
     </div>
   </div>
 
