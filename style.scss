@@ -105,18 +105,26 @@ body {
 
 .search {
   background-color: $pastel-orange;
+  text-align: center;
+  padding: 4vh;
 }
 
 .setup {
   background-color: $pastel-aqua;
+  text-align: right;
+  padding: 4vh 2vh;
 }
 
 .punchline {
   background-color: $pastel-green;
+  text-align: left;
+  padding: 4vh 2vh;
 }
 
 .footer {
   background-color: $neutral-grey;
+  text-align: center;
+  padding: 4vh;
 
   a {
     text-decoration: none;
