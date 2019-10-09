@@ -114,8 +114,8 @@ body {
     width: auto;
     text-align: left;
     max-width: 100%; }
-  .search div {
-    display: inline-block; }
+    .search form h4 {
+      text-align: center; }
   .search input {
     margin-right: .5vw; }
   .search button {
