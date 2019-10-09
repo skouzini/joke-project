@@ -1,4 +1,6 @@
 function getJoke() {
+    document.getElementById("setup").textContent = "";
+    document.getElementById("punchline").textContent = "";
 
     event.preventDefault();
     const jokeType = document.querySelector('input[name="jokeType"]:checked').value;
