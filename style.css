@@ -102,16 +102,24 @@ body {
     width: 60vh; }
 
 .search {
-  background-color: #daac8a; }
+  background-color: #daac8a;
+  text-align: center;
+  padding: 4vh; }
 
 .setup {
-  background-color: #89d9d2; }
+  background-color: #89d9d2;
+  text-align: right;
+  padding: 4vh 2vh; }
 
 .punchline {
-  background-color: #a5da89; }
+  background-color: #a5da89;
+  text-align: left;
+  padding: 4vh 2vh; }
 
 .footer {
-  background-color: #5b5b5b; }
+  background-color: #5b5b5b;
+  text-align: center;
+  padding: 4vh; }
   .footer a {
     text-decoration: none;
     color: inherit; }
