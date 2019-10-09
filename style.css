@@ -2,7 +2,7 @@
   .parent {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr 2fr repeat(2, 2fr) 1fr;
+    grid-template-rows: 3fr auto repeat(2, 2fr) 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px; }
 
@@ -31,7 +31,7 @@
   .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 3fr 1fr 2fr 1fr;
+    grid-template-rows: 3fr auto 2fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px; }
 
